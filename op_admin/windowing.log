@@ -1,0 +1,20 @@
+# identity_string	x_min	y_min	x_max	y_max
+nt/Choose Statistic Results	100	322	644	827
+System/tool_dialog	508	195	987	577
+oms/link_port_connectivity	379	91	675	215
+nt/obj_model_choose,object_palette	856	332	1477	917
+nt/documentation/editor	88	179	562	488
+project/tool_dialog,JF_DR_Manet_Project	1	31	780	1011
+obj/compound_horizontal	501	240	1100	524
+ex/sim_progress	2	-57	707	432
+mmi/toolop/Prompt	480	172	777	254
+an/view_results	83	229	935	786
+nt/trajectory/waypath_segment	181	605	570	831
+nt/trajectory/define	91	205	427	447
+obj/compound_vertical	178	363	560	566
+mmi/Confirm	290	426	495	502
+nt/trajectory/Traj Status	832	209	1101	484
+mmi/edit_pad	959	93	1509	693
+an/unified_viewer	115	62	886	662
+oms/oms_distribution_dbox	170	321	453	444
+nt/trajectory/waypath_edit	421	170	1154	555

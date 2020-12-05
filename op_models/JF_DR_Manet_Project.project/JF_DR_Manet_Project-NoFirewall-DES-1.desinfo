@@ -1,0 +1,467 @@
+NoFirewall	1	0
+----------------- Static Environment Attribute Confirmations -----------------
+
+--------------------Name-------------------- --Source--- ------Value------
+ef                                           cmd line    JF_DR_Manet_Project-NoFirewall-DES-1
+force_posix_locale                           default     TRUE
+mem_clear                                    default     0
+mem_opt.compact_pools                        default     TRUE
+mem_opt.pool_small_blocks                    default     TRUE
+mem_opt.grow_pool_planks                     default     TRUE
+mem_shred                                    default     FALSE
+mod_dirs                                     env. file   /home/jfiguer008/op_models,
+                                                         /usr/riverbed/18.6/sys/lib,
+                                                         /usr/riverbed/18.6/sys/icons,
+                                                         /usr/riverbed/18.6/sys/images,
+                                                         /usr/riverbed/18.6/sys/include,
+                                                         /usr/riverbed/18.6/sys/images/maps,
+                                                         /usr/riverbed/18.6/sys/configs,
+                                                         /usr/riverbed/18.6/sys/help,
+                                                         /usr/riverbed/18.6/sys/utilities,
+                                                         /usr/riverbed/18.6/sys/utilities/3dnv,
+                                                         /usr/riverbed/18.6/sys/utilities/tmm,
+                                                         /usr/riverbed/18.6/sys/utilities/hla,
+                                                         /usr/riverbed/18.6/sys/utilities/sitl,
+                                                         /usr/riverbed/18.6/sys/reports/stylesheets,
+                                                         /home/jfiguer008/op_admin/ace_logs,
+                                                         /home/jfiguer008/op_admin/rmc/logs,
+                                                         /usr/riverbed/18.6/models/std/rrp,
+                                                         /usr/riverbed/18.6/models/std/eigrp,
+                                                         /usr/riverbed/18.6/models/std/ethernet,
+                                                         /usr/riverbed/18.6/models/std/pricing,
+                                                         /usr/riverbed/18.6/models/std/pricing/utilities,
+                                                         /usr/riverbed/18.6/models/std/include,
+                                                         /usr/riverbed/18.6/models/std/zigbee,
+                                                         /usr/riverbed/18.6/models/std/lane,
+                                                         /usr/riverbed/18.6/models/std/lte,
+                                                         /usr/riverbed/18.6/models/std/voice,
+                                                         /usr/riverbed/18.6/models/std/haipe,
+                                                         /usr/riverbed/18.6/models/std/demands,
+                                                         /usr/riverbed/18.6/models/std/icons,
+                                                         /usr/riverbed/18.6/models/std/3dnv_examples,
+                                                         /usr/riverbed/18.6/models/std/links,
+                                                         /usr/riverbed/18.6/models/std/sdn,
+                                                         /usr/riverbed/18.6/models/std/atv,
+                                                         /usr/riverbed/18.6/models/std/pnni,
+                                                         /usr/riverbed/18.6/models/std/msdp,
+                                                         /usr/riverbed/18.6/models/std/web_reports,
+                                                         /usr/riverbed/18.6/models/std/ethcoax,
+                                                         /usr/riverbed/18.6/models/std/gdc,
+                                                         /usr/riverbed/18.6/models/std/mainframe,
+                                                         /usr/riverbed/18.6/models/std/mainframe/SAS,
+                                                         /usr/riverbed/18.6/models/std/mainframe/SAS/MXG,
+                                                         /usr/riverbed/18.6/models/std/mainframe/SAS/NeuMICS,
+                                                         /usr/riverbed/18.6/models/std/mainframe/Excel,
+                                                         /usr/riverbed/18.6/models/std/applications,
+                                                         /usr/riverbed/18.6/models/std/xdsl,
+                                                         /usr/riverbed/18.6/models/std/ospf,
+                                                         /usr/riverbed/18.6/models/std/wireless,
+                                                         /usr/riverbed/18.6/models/std/wireless/wireless_wizard,
+                                                         /usr/riverbed/18.6/models/std/wireless/wrls_phy_mpath_data_files,
+                                                         /usr/riverbed/18.6/models/std/wireless/smac,
+                                                         /usr/riverbed/18.6/models/std/inet,
+                                                         /usr/riverbed/18.6/models/std/tpal,
+                                                         /usr/riverbed/18.6/models/std/example_networks,
+                                                         /usr/riverbed/18.6/models/std/example_networks/Common,
+                                                         /usr/riverbed/18.6/models/std/example_networks/Common/traffic,
+                                                         /usr/riverbed/18.6/models/std/example_networks/Common/traffic/time_varying,
+                                                         /usr/riverbed/18.6/models/std/example_networks/Common/traffic/one_time_period,
+                                                         /usr/riverbed/18.6/models/std/example_networks/Modeler,
+                                                         /usr/riverbed/18.6/models/std/example_networks/Modeler/parallel_simulations,
+                                                         /usr/riverbed/18.6/models/std/example_networks/ModelerAE,
+                                                         /usr/riverbed/18.6/models/std/rip,
+                                                         /usr/riverbed/18.6/models/std/ike,
+                                                         /usr/riverbed/18.6/models/std/utilities,
+                                                         /usr/riverbed/18.6/models/std/utilities/netone,
+                                                         /usr/riverbed/18.6/models/std/utilities/netmapper,
+                                                         /usr/riverbed/18.6/models/std/utilities/netdiff,
+                                                         /usr/riverbed/18.6/models/std/utilities/netdiff/config_file_diff_css,
+                                                         /usr/riverbed/18.6/models/std/utilities/ctr,
+                                                         /usr/riverbed/18.6/models/std/utilities/ctr/des_profiles,
+                                                         /usr/riverbed/18.6/models/std/utilities/ctr/profiles,
+                                                         /usr/riverbed/18.6/models/std/utilities/ctr/en_US,
+                                                         /usr/riverbed/18.6/models/std/utilities/ctr/ext,
+                                                         /usr/riverbed/18.6/models/std/utilities/import,
+                                                         /usr/riverbed/18.6/models/std/utilities/import/csv,
+                                                         /usr/riverbed/18.6/models/std/utilities/import/csv/interface_naming_rules,
+                                                         /usr/riverbed/18.6/models/std/utilities/import/csv/config,
+                                                         /usr/riverbed/18.6/models/std/utilities/import/rci,
+                                                         /usr/riverbed/18.6/models/std/utilities/import/imex_dste,
+                                                         /usr/riverbed/18.6/models/std/utilities/import/ai,
+                                                         /usr/riverbed/18.6/models/std/utilities/import/vnes,
+                                                         /usr/riverbed/18.6/models/std/utilities/pnm,
+                                                         /usr/riverbed/18.6/models/std/utilities/port_scan,
+                                                         /usr/riverbed/18.6/models/std/utilities/inv,
+                                                         /usr/riverbed/18.6/models/std/utilities/inv/en_US,
+                                                         /usr/riverbed/18.6/models/std/utilities/views,
+                                                         /usr/riverbed/18.6/models/std/utilities/osc,
+                                                         /usr/riverbed/18.6/models/std/utilities/osc/en_US,
+                                                         /usr/riverbed/18.6/models/std/utilities/device_creator,
+                                                         /usr/riverbed/18.6/models/std/utilities/device_creator/generic,
+                                                         /usr/riverbed/18.6/models/std/utilities/device_creator/vendor,
+                                                         /usr/riverbed/18.6/models/std/utilities/design,
+                                                         /usr/riverbed/18.6/models/std/utilities/design/igp_te,
+                                                         /usr/riverbed/18.6/models/std/utilities/design/mpls_te,
+                                                         /usr/riverbed/18.6/models/std/utilities/design/lfa,
+                                                         /usr/riverbed/18.6/models/std/utilities/design/topo,
+                                                         /usr/riverbed/18.6/models/std/utilities/design/base,
+                                                         /usr/riverbed/18.6/models/std/utilities/design/mpls,
+                                                         /usr/riverbed/18.6/models/std/utilities/design/mpls_qp,
+                                                         /usr/riverbed/18.6/models/std/utilities/groups,
+                                                         /usr/riverbed/18.6/models/std/utilities/udr,
+                                                         /usr/riverbed/18.6/models/std/utilities/packet_analyzer,
+                                                         /usr/riverbed/18.6/models/std/utilities/odb_vis,
+                                                         /usr/riverbed/18.6/models/std/utilities/netdoctor,
+                                                         /usr/riverbed/18.6/models/std/utilities/netdoctor/en_US,
+                                                         /usr/riverbed/18.6/models/std/utilities/flowan,
+                                                         /usr/riverbed/18.6/models/std/utilities/flowan/failure_impact_analysis,
+                                                         /usr/riverbed/18.6/models/std/utilities/flowan/voip,
+                                                         /usr/riverbed/18.6/models/std/utilities/flowan/capplan,
+                                                         /usr/riverbed/18.6/models/std/utilities/flowan/ipv6,
+                                                         /usr/riverbed/18.6/models/std/utilities/common,
+                                                         /usr/riverbed/18.6/models/std/utilities/oms,
+                                                         /usr/riverbed/18.6/models/std/utilities/oms/mdets,
+                                                         /usr/riverbed/18.6/models/std/utilities/oms/mdets/include,
+                                                         /usr/riverbed/18.6/models/std/utilities/oms/mdets/conn,
+                                                         /usr/riverbed/18.6/models/std/utilities/oms/mdets/base,
+                                                         /usr/riverbed/18.6/models/std/utilities/oms/ets,
+                                                         /usr/riverbed/18.6/models/std/utilities/oms/ets/conn,
+                                                         /usr/riverbed/18.6/models/std/utilities/oms/ets/base,
+                                                         /usr/riverbed/18.6/models/std/utilities/oms/svc,
+                                                         /usr/riverbed/18.6/models/std/utilities/oms/bgp,
+                                                         /usr/riverbed/18.6/models/std/utilities/oms/peer,
+                                                         /usr/riverbed/18.6/models/std/lapb,
+                                                         /usr/riverbed/18.6/models/std/tdma,
+                                                         /usr/riverbed/18.6/models/std/h323,
+                                                         /usr/riverbed/18.6/models/std/tr,
+                                                         /usr/riverbed/18.6/models/std/ip,
+                                                         /usr/riverbed/18.6/models/std/ip/ipv6_readiness,
+                                                         /usr/riverbed/18.6/models/std/ip/ipv6_readiness/en_US,
+                                                         /usr/riverbed/18.6/models/std/ip/utilities,
+                                                         /usr/riverbed/18.6/models/std/bgp,
+                                                         /usr/riverbed/18.6/models/std/advisories,
+                                                         /usr/riverbed/18.6/models/std/traf_gen,
+                                                         /usr/riverbed/18.6/models/std/tutorial_req,
+                                                         /usr/riverbed/18.6/models/std/tutorial_req/module,
+                                                         /usr/riverbed/18.6/models/std/tutorial_req/module/3dnv,
+                                                         /usr/riverbed/18.6/models/std/tutorial_req/module/hla,
+                                                         /usr/riverbed/18.6/models/std/tutorial_req/module/MVI_NetDoctor_configs,
+                                                         /usr/riverbed/18.6/models/std/tutorial_req/module/MVI_NetDoctor_configs/DataSet3_MissingVLANInformation,
+                                                         /usr/riverbed/18.6/models/std/tutorial_req/module/MVI_NetDoctor_configs/DataSet1_Layer3Only,
+                                                         /usr/riverbed/18.6/models/std/tutorial_req/module/MVI_NetDoctor_configs/DataSet2_ConfigOnly,
+                                                         /usr/riverbed/18.6/models/std/tutorial_req/module/MVI_NetDoctor_configs/DataSet4_Complete,
+                                                         /usr/riverbed/18.6/models/std/tutorial_req/module/configs,
+                                                         /usr/riverbed/18.6/models/std/tutorial_req/module/configs/baseline,
+                                                         /usr/riverbed/18.6/models/std/tutorial_req/module/configs/with_areas_broken,
+                                                         /usr/riverbed/18.6/models/std/tutorial_req/module/traffic,
+                                                         /usr/riverbed/18.6/models/std/tutorial_req/sentinel,
+                                                         /usr/riverbed/18.6/models/std/tutorial_req/sentinel/quickstart_configs,
+                                                         /usr/riverbed/18.6/models/std/tutorial_req/basic,
+                                                         /usr/riverbed/18.6/models/std/tutorial_req/basic/traffic,
+                                                         /usr/riverbed/18.6/models/std/tutorial_req/modeler,
+                                                         /usr/riverbed/18.6/models/std/manet,
+                                                         /usr/riverbed/18.6/models/std/base,
+                                                         /usr/riverbed/18.6/models/std/bridges,
+                                                         /usr/riverbed/18.6/models/std/fddi,
+                                                         /usr/riverbed/18.6/models/std/l2tp,
+                                                         /usr/riverbed/18.6/models/std/dhcp,
+                                                         /usr/riverbed/18.6/models/std/wimax,
+                                                         /usr/riverbed/18.6/models/std/mpls,
+                                                         /usr/riverbed/18.6/models/std/jammers,
+                                                         /usr/riverbed/18.6/models/std/rohc,
+                                                         /usr/riverbed/18.6/models/std/atm,
+                                                         /usr/riverbed/18.6/models/std/servers,
+                                                         /usr/riverbed/18.6/models/std/servers/agents,
+                                                         /usr/riverbed/18.6/models/std/servers/agents/OpenView,
+                                                         /usr/riverbed/18.6/models/std/servers/agents/OpenView/unix,
+                                                         /usr/riverbed/18.6/models/std/servers/agents/OpenView/nt,
+                                                         /usr/riverbed/18.6/models/std/servers/agents/Perfmon,
+                                                         /usr/riverbed/18.6/models/std/servers/agents/BMC,
+                                                         /usr/riverbed/18.6/models/std/servers/agents/BMC/unix,
+                                                         /usr/riverbed/18.6/models/std/servers/agents/BMC/nt,
+                                                         /usr/riverbed/18.6/models/std/servers/agents/NetIQ,
+                                                         /usr/riverbed/18.6/models/std/servers/agents/NetIQ/4.0,
+                                                         /usr/riverbed/18.6/models/std/servers/agents/NetIQ/5.0,
+                                                         /usr/riverbed/18.6/models/std/fc,
+                                                         /usr/riverbed/18.6/models/std/sna,
+                                                         /usr/riverbed/18.6/models/std/x25,
+                                                         /usr/riverbed/18.6/models/std/cyber,
+                                                         /usr/riverbed/18.6/models/std/tcp,
+                                                         /usr/riverbed/18.6/models/std/frelay,
+                                                         /usr/riverbed/18.6/models/std/umts,
+                                                         /usr/riverbed/18.6/models/std/legacy,
+                                                         /usr/riverbed/18.6/models/std/sip,
+                                                         /usr/riverbed/18.6/models/std/isis,
+                                                         /usr/riverbed/18.6/models/std/igrp,
+                                                         /usr/riverbed/18.6/models/std/layer2_mss,
+                                                         /usr/riverbed/18.6/models/std/llm,
+                                                         /usr/riverbed/18.6/models/std/wireless_lan,
+                                                         /usr/riverbed/18.6/models/std/srp,
+                                                         /usr/riverbed/18.6/models/std/rsvp,
+                                                         /usr/riverbed/18.6/models/std/mobile_ip,
+                                                         /usr/riverbed/18.6/models/std/rtp,
+                                                         /usr/riverbed/18.6/models/vendor_models/McData,
+                                                         /usr/riverbed/18.6/models/vendor_models/Cabletron,
+                                                         /usr/riverbed/18.6/models/vendor_models/Dell,
+                                                         /usr/riverbed/18.6/models/vendor_models/Nortel,
+                                                         /usr/riverbed/18.6/models/vendor_models/Juniper_Networks,
+                                                         /usr/riverbed/18.6/models/vendor_models/Huawei,
+                                                         /usr/riverbed/18.6/models/vendor_models/NET,
+                                                         /usr/riverbed/18.6/models/vendor_models/Foundry_Networks,
+                                                         /usr/riverbed/18.6/models/vendor_models/IBM,
+                                                         /usr/riverbed/18.6/models/vendor_models/AMD,
+                                                         /usr/riverbed/18.6/models/vendor_models/3Com,
+                                                         /usr/riverbed/18.6/models/vendor_models/Compaq,
+                                                         /usr/riverbed/18.6/models/vendor_models/Alteon,
+                                                         /usr/riverbed/18.6/models/vendor_models/antenna_models,
+                                                         /usr/riverbed/18.6/models/vendor_models/Newbridge,
+                                                         /usr/riverbed/18.6/models/vendor_models/CheckPoint,
+                                                         /usr/riverbed/18.6/models/vendor_models/Equipe,
+                                                         /usr/riverbed/18.6/models/vendor_models/Avici,
+                                                         /usr/riverbed/18.6/models/vendor_models/Intel,
+                                                         /usr/riverbed/18.6/models/vendor_models/Fore_Systems,
+                                                         /usr/riverbed/18.6/models/vendor_models/Xylan,
+                                                         /usr/riverbed/18.6/models/vendor_models/Cisco_Systems,
+                                                         /usr/riverbed/18.6/models/vendor_models/Nec,
+                                                         /usr/riverbed/18.6/models/vendor_models/f5,
+                                                         /usr/riverbed/18.6/models/vendor_models/Brocade,
+                                                         /usr/riverbed/18.6/models/vendor_models/Nokia,
+                                                         /usr/riverbed/18.6/models/vendor_models/Hewlett_Packard,
+                                                         /usr/riverbed/18.6/models/vendor_models/Ascend,
+                                                         /usr/riverbed/18.6/models/vendor_models/Lucent,
+                                                         /usr/riverbed/18.6/models/vendor_models/Bay_Networks,
+                                                         /usr/riverbed/18.6/models/vendor_models/Coyote_Point,
+                                                         /usr/riverbed/18.6/models/vendor_models/Radware,
+                                                         /usr/riverbed/18.6/models/vendor_models/Alcatel_Lucent,
+                                                         /usr/riverbed/18.6/models/vendor_models/Extreme,
+                                                         /usr/riverbed/18.6/models/vendor_models/Sun
+tfile_dir_cache_file                         default     opnet_dir_cache
+tfile_dir_cache                              cmd line    ignore
+noprompt                                     cmd line    TRUE
+opnet_dir                                    shell var   /usr/riverbed
+opnet_user_home                              shell var   /home/jfiguer008
+preferences_default_save_location            env. file   Local
+verbose_session_log                          default     FALSE
+java_prog                                    config file /usr/riverbed/18.6/jre_modeler/bin/java
+java_prog64                                  config file /usr/riverbed/18.6/jre_modeler/bin/java
+3dnv                                         default     FALSE
+3dnv.cleanup_at_the_end                      default     TRUE
+3dnv.fed_file_name                           default     <null>
+3dnv.federation_name                         default     OPNET_3DNV
+3dnv.history_file                            default     <null>
+3dnv.hla_standard                            default     "DOD 1.3"
+3dnv.initialization_delay                    default     1
+3dnv.mapping_argument                        default     <null>
+3dnv.mapping_library                         default     opnet_3dnv_default_mapping
+3dnv.max_request_rate                        default     0
+3dnv.rpr_fom_version                         default     1
+anim_attempts                                default     5
+anim_hist                                    env. file   JF_DR_Manet_Project-NoFirewall-DES-1
+anim_host                                    default     localhost
+anim_port                                    default     0
+anim_timeout                                 default     3
+anim_view                                    env. file   FALSE
+antenna.spherical_model                      default     Mathematical
+attr_reqs_file                               default     <null>
+auto_disk_space_threshold                    default     1000
+automation_lock_max_wait_time                default     60
+beep_count_confirm                           default     1
+beep_count_error                             default     2
+bind_shobj_flags                             default     <null>
+bind_shobj_flags_32bit                       default     <null>
+bind_shobj_flags_64bit                       default     <null>
+bind_shobj_flags_devel                       default     <null>
+bind_shobj_flags_optim                       default     <null>
+bind_shobj_libs                              default     <null>
+bind_shobj_libs_32bit                        default     <null>
+bind_shobj_libs_64bit                        default     <null>
+bind_shobj_libs_devel                        default     <null>
+bind_shobj_libs_optim                        default     <null>
+bind_shobj_prog                              default     bind_so_unix
+c                                            default     FALSE
+c_exclude_standard_models                    default     FALSE
+check_newer_process_model_files              default     TRUE
+comp.no_fin_required_for_state_vars          default     FALSE
+comp_flags_32bit                             default     <null>
+comp_flags_64bit                             default     <null>
+comp_flags_c++_specific                      default     <null>
+comp_flags_c_specific                        default     <null>
+comp_flags_common                            env. file   " -DOP_ODK_APIS -I/usr/riverbed/18.6/models/std/include"
+comp_flags_devel                             default     -g
+comp_flags_mt                                default     <null>
+comp_flags_optim                             default     "-O2 -DOPD_NO_DEBUG -DOPD_INLINE_KPS"
+comp_object_files_without_source             default     allow_with_warning
+comp_per_file_errors                         default     FALSE
+comp_per_process_errors                      default     TRUE
+comp_prog                                    default     comp_unix
+comp_prog_cpp                                default     comp_unix_cpp
+comp_trace_info                              env. file   kernel-based
+core_dump                                    default     FALSE
+cosim                                        default     <null>
+cosimulation_optimization_mode               default     none
+debug                                        default     FALSE
+debug_mk                                     default     FALSE
+default_site_position_cache_time_granularity env. file   0
+des.checkpoint.autogen                       default     <null>
+des.checkpoint.autogen_stop_after_restart    default     TRUE
+des.checkpoint.continue                      default     TRUE
+des.checkpoint.enabled                       default     FALSE
+des.checkpoint.keep_last                     default     0
+des.checkpoint.lowmem                        default     FALSE
+des.checkpoint.verbose                       default     FALSE
+des.log_severity_filter                      env. file   -1
+diag_enable                                  default     FALSE
+display_timezone_string                      default     FALSE
+duration                                     env. file   5400
+edit_lock_mode                               default     FALSE
+endsim_memstats                              default     FALSE
+etrace_diff                                  default     <null>
+etrace_dump                                  default     <null>
+etrace_end_time                              default     1e+100
+etrace_start_time                            default     0
+event_order_method                           default     strict
+event_speed_parameter                        default     100000
+file_read_abort_suppress                     default     FALSE
+format_event_ids_with_1000s_separator        default     TRUE
+format_ici_ids_with_1000s_separator          default     TRUE
+format_object_ids_with_1000s_separator       default     TRUE
+format_packet_ids_with_1000s_separator       default     TRUE
+format_process_ids_with_1000s_separator      default     TRUE
+fully_serialized_event_execution_ids         default     TRUE
+fully_serialized_ici_ids                     default     TRUE
+fully_serialized_packet_ids                  default     TRUE
+geocentric_model                             default     right_sphere
+invalid_link_notification                    default     TRUE
+jitd_cmd_line                                default     "xterm -T OPNET_JIT -e gdb -c %d"
+jitd_enable                                  default     FALSE
+kernel_type                                  default     development
+license_broker_host                          default     <null>
+license_broker_port                          default     <null>
+license_expiration_warning_interval          default     3
+license_group                                default     <null>
+license_http_proxy_password                  default     <not set>
+license_http_proxy_port                      default     80
+license_http_proxy_server                    default     <null>
+license_http_proxy_user                      default     <null>
+license_http_server                          default     license01.opnet.com
+license_http_use_proxy                       default     FALSE
+license_https_enable                         default     TRUE
+license_password                             default     <not set>
+license_ping_old_servers                     default     FALSE
+license_port                                 config file port_a
+license_server                               config file 134.74.228.2
+license_server_standalone                    config file FALSE
+license_server_standalone_diagnose           default     FALSE
+license_simple_loanable_enable               default     TRUE
+license_username                             default     <null>
+livelock_thresh                              default     8192
+log_endsim_perf                              env. file   TRUE
+log_file                                     env. file   JF_DR_Manet_Project-NoFirewall-DES-1
+log_time_precision                           default     12
+manage_loanable_licenses                     default     FALSE
+max_idle_time_microseconds                   default     1
+max_log_entries                              env. file   200
+mem_track                                    default     FALSE
+mem_track_object                             default     <null>
+memstat_autogen                              default     <null>
+memtag_all                                   default     FALSE
+mtn_warn_int                                 default     3
+named_locks                                  default     FALSE
+net_name                                     cmd line    JF_DR_Manet_Project-NoFirewall
+num_collect_values                           env. file   500
+num_err                                      default     10
+odb_break_if_abort                           default     FALSE
+odb_break_if_recover                         default     FALSE
+ot_file                                      env. file   JF_DR_Manet_Project-NoFirewall-DES-1
+ot_file.default_format                       default     write_many
+ot_mem_size                                  default     4
+ov_autogen                                   default     <null>
+ov_diff_tolerance                            default     5
+ov_file                                      env. file   JF_DR_Manet_Project-NoFirewall-DES-1
+ov_mem_size                                  default     16
+parallel_sim.event_execution_time_window     env. file   0
+parallel_sim.mutex_rank_ignore               default     FALSE
+per_module_random_stream                     default     FALSE
+probe                                        env. file   JF_DR_Manet_Project-NoFirewall
+probe_error_enable                           default     FALSE
+probe_start_time                             default     -1
+probe_stop_time                              default     -1
+prof_output                                  default     console
+prof_output_separator                        default     <null>
+prof_track                                   default     FALSE
+prof_track_func                              default     <null>
+prof_track_recurse                           default     TRUE
+psnone_tda.bu.closure.closure                default     TRUE
+psnone_tda.bu.collision.num_colls            default     0
+psnone_tda.bu.ecc.pk_accept                  default     TRUE
+psnone_tda.bu.error.num_errors               default     0
+psnone_tda.bu.propdel.prop_delay             default     0
+psnone_tda.bu.txdel.tx_delay                 default     0
+psnone_tda.pt.ecc.pk_accept                  default     TRUE
+psnone_tda.pt.error.num_errors               default     0
+psnone_tda.pt.propdel.prop_delay             default     0
+psnone_tda.pt.txdel.tx_delay                 default     0
+psnone_tda.ra.ber.ber                        default     0
+psnone_tda.ra.bkgnoise.bkgnoise              default     0
+psnone_tda.ra.chanmatch.match_status         default     valid
+psnone_tda.ra.closure.closure                default     TRUE
+psnone_tda.ra.ecc.pk_accept                  default     TRUE
+psnone_tda.ra.error.actual_ber               default     0
+psnone_tda.ra.error.num_errors               default     0
+psnone_tda.ra.power.rcvd_power               default     -1
+psnone_tda.ra.propdel.end_propdel            default     0
+psnone_tda.ra.propdel.start_propdel          default     0
+psnone_tda.ra.ragain.rx_gain                 default     0
+psnone_tda.ra.snr.snr                        default     1000
+psnone_tda.ra.tagain.tx_gain                 default     0
+psnone_tda.ra.txdel.tx_delay                 default     0
+radio_transmission_defer_packet_duplication  default     TRUE
+radio_transmission_on_demand_receiver_groups default     FALSE
+rand_gen_type                                default     Linear-Congruential
+rand_num_ext_res                             default     TRUE
+raw_err                                      default     FALSE
+realtime_ratio                               env. file   0
+rec_err_suppress                             default     FALSE
+receiver_history_recording_limit             default     3
+record_gstats                                default     FALSE
+script_mode                                  default     none
+script_name                                  default     odb_script
+seed                                         env. file   128
+sim_packet_sharing                           env. file   conservative
+sim_process_priority                         default     normal
+sim_time_quantum                             env. file   0
+site_position_cache_size                     env. file   3
+sitl_realtime_ratio_check                    default     TRUE
+sla_compute_all_violations                   default     FALSE
+split_start_radio_transmission               default     FALSE
+timezone                                     default     "Local Timezone"
+tmm_data_directory                           default     <obsolete>
+tmm_data_type                                default     "USGS DEM"
+tmm_display_degrees                          default     FALSE
+tmm_include_antenna_height                   default     FALSE
+tmm_load_as_needed                           default     TRUE
+tmm_pathloss_cache_size                      default     2
+tmm_prop_model                               default     <null>
+tmm_prop_param                               default     <null>
+tmm_propagation_specification                default     <null>
+tmm_propagation_zone_ratio                   default     0
+tmm_propagation_zone_resolution              default     100
+tmm_simulate                                 env. file   FALSE
+tmm_terrain_cache_size                       default     10
+tmm_terrain_specification                    default     <null>
+tmm_use_cache                                default     TRUE
+tmm_verbose                                  default     FALSE
+transceiver_history_recording_enabled        default     FALSE
+transmitter_history_recording_limit          default     3
+update_interval                              env. file   500000
+updates_in_seconds                           default     FALSE
+user_lock_devname                            default     <null>
+verbose_cell_size_report                     env. file   FALSE
+verbose_event_report                         env. file   FALSE
+verbose_event_timing_report                  env. file   FALSE
+verbose_load                                 env. file   TRUE
+verbose_mk                                   default     FALSE
+verbose_packet_report                        env. file   TRUE
+verbose_parallel_speedup_report              env. file   FALSE
+verbose_sim                                  env. file   TRUE
+warning_suppress                             default     FALSE

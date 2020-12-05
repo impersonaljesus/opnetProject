@@ -1,0 +1,1301 @@
+
+<<< Warning >>>
+  * Time:      12:16:45 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   modeler (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   TMM
+  * Function:  TmmT_Elev_Catalog::get_current
+  * Error:     No default terrain specified; no elevations available until one is set.
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    153  0x8a115e07 [name not available]
+     1)          1   2211  0x84307c15 [name not available]
+     2)          1   1102  0x2403d402 [name not available]
+     3)          1    146  vos_event_loop
+     4)       8866   2520  vmmi_dbox_handle_motion
+     5)       8652   3538  vmmi_dbox_lining_handle_motion
+     6)       1282   4248  dom_ctl_motion_handler
+     7)       1023   8988  nt_domain_mouse_motion_handler
+     8)          1   8747  nt_domain_traj_mode_mouse_motion_handler
+     9)          1   3896  nt_traj_edit_info_update
+    10)          1   1095  TmmT_Elev_Catalog::get_current
+    ------------------------------------------------------------
+
+
+<<< Unhandled Exception >>>
+The following chain of information is available:
+    error 1: /Return/
+	message: X I/O error: connection lost
+	module: vwineventsys
+	file: event.c
+	line: 713
+	errno: 4: Interrupted system call
+
+<<< Program Abort >>>
+  * Time:      12:50:41 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   modeler (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   Vos (Virtual Operating System)
+  * Function:  Mmi_Dbox_Show
+  * Error:     unhandled vex exception
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    153  0x8a115e07 [name not available]
+     1)          1   2211  0x84307c15 [name not available]
+     2)          1   1102  0x2403d402 [name not available]
+     3)          1    146  vos_event_loop
+     4)      16369     77  vos_event_client_vevent_handler
+     5)         36    153  vos_timer_handler_exec
+     6)          1   2211  mmi_backup_handler
+     7)          1   2264  Mmi_Tools_Backup_All
+     8)          1   5146  mmi_tool_client_backup_issue
+     9)          1   1912  pj_tool_backup
+    10)          1   1882  pj_tool_backup_query
+    11)         83   2390  Mmi_Dbox_Show
+    ------------------------------------------------------------
+
+
+<<< Program Abort >>>
+  * Time:      19:05:19 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   modeler (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   Mmi
+  * Function:  Mmi_Open
+  * Error:     Unable to initialize windowing system:
+               unable to open X display
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    153  0x8a115e07 [name not available]
+     1)          1   2211  0x00004c00 [name not available]
+     2)          1   1102  0x0000c400 [name not available]
+     3)          1   6107  m3_main
+     4)          1   1302  Mmi_Open
+    ------------------------------------------------------------
+
+
+<<< Warning >>>
+  * Time:      19:39:43 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   modeler (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   TMM
+  * Function:  TmmT_Elev_Catalog::get_current
+  * Error:     No default terrain specified; no elevations available until one is set.
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    153  0x8a115e07 [name not available]
+     1)          1   2211  0x84307c15 [name not available]
+     2)          1   1102  0x2403d402 [name not available]
+     3)          1    146  vos_event_loop
+     4)       5410   2520  vmmi_dbox_handle_motion
+     5)       5291   3538  vmmi_dbox_lining_handle_motion
+     6)       1160   4248  dom_ctl_motion_handler
+     7)       1102   8988  nt_domain_mouse_motion_handler
+     8)          1   8747  nt_domain_traj_mode_mouse_motion_handler
+     9)          1   3896  nt_traj_edit_info_update
+    10)          1   1095  TmmT_Elev_Catalog::get_current
+    ------------------------------------------------------------
+
+
+<<< Recoverable Error >>>
+  * Time:      19:55:04 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   modeler (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   Obj
+  * Function:  obj_attr_error
+  * Error:     Access failed for attribute (name)
+               Value is not permitted.
+               Names may not contain a '.'
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    153  0x8a115e07 [name not available]
+     1)          1   2211  0x84307c15 [name not available]
+     2)          1   1102  0x2403d402 [name not available]
+     3)          1    146  vos_event_loop
+     4)        373   2833  vmmi_dbox_handle_button_down
+     5)         33   4104  vmmi_dbox_cell_edit_test_unfocus
+     6)        152   8656  Mmi_Ctl_Table_Cell_Edit_Close
+     7)         17   8477  obj_dbox_table_convert_method
+     8)         17   8336  obj_dbox_table_input_check
+     9)         17   1524  obj_attr_value_tblcell_input_test_2
+    10)         17   1501  obj_value_tblcell_input_test_2
+    11)          1   2841  obj_attr_error
+    ------------------------------------------------------------
+
+
+<<< Recoverable Error >>>
+  * Time:      19:55:04 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   modeler (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   Obj
+  * Function:  obj_attr_error
+  * Error:     Access failed for attribute (name)
+               Value is not permitted.
+               Names may not contain a '.'
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    153  0x8a115e07 [name not available]
+     1)          1   2211  0x84307c15 [name not available]
+     2)          1   1102  0x2403d402 [name not available]
+     3)          1    146  vos_event_loop
+     4)        373   2833  vmmi_dbox_handle_button_down
+     5)        349   3593  vmmi_dbox_lining_handle_button_down
+     6)        129   4863  vmmi_ctl_table_handle_button_down
+     7)        153   8656  Mmi_Ctl_Table_Cell_Edit_Close
+     8)         18   8477  obj_dbox_table_convert_method
+     9)         18   8336  obj_dbox_table_input_check
+    10)         18   1524  obj_attr_value_tblcell_input_test_2
+    11)         18   1501  obj_value_tblcell_input_test_2
+    12)          2   2841  obj_attr_error
+    ------------------------------------------------------------
+
+
+<<< Recoverable Error >>>
+  * Time:      19:55:06 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   modeler (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   Obj
+  * Function:  obj_attr_error
+  * Error:     Access failed for attribute (name)
+               Value is not permitted.
+               Names may not contain a '.'
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    153  0x8a115e07 [name not available]
+     1)          1   2211  0x84307c15 [name not available]
+     2)          1   1102  0x2403d402 [name not available]
+     3)          1    146  vos_event_loop
+     4)        374   2833  vmmi_dbox_handle_button_down
+     5)         36   4104  vmmi_dbox_cell_edit_test_unfocus
+     6)        154   8656  Mmi_Ctl_Table_Cell_Edit_Close
+     7)         19   8477  obj_dbox_table_convert_method
+     8)         19   8336  obj_dbox_table_input_check
+     9)         19   1524  obj_attr_value_tblcell_input_test_2
+    10)         19   1501  obj_value_tblcell_input_test_2
+    11)          3   2841  obj_attr_error
+    ------------------------------------------------------------
+
+
+<<< Recoverable Error >>>
+  * Time:      19:55:06 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   modeler (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   Obj
+  * Function:  obj_attr_error
+  * Error:     Access failed for attribute (name)
+               Value is not permitted.
+               Names may not contain a '.'
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    153  0x8a115e07 [name not available]
+     1)          1   2211  0x84307c15 [name not available]
+     2)          1   1102  0x2403d402 [name not available]
+     3)          1    146  vos_event_loop
+     4)        374   2833  vmmi_dbox_handle_button_down
+     5)        350   3593  vmmi_dbox_lining_handle_button_down
+     6)        130   4863  vmmi_ctl_table_handle_button_down
+     7)        155   8656  Mmi_Ctl_Table_Cell_Edit_Close
+     8)         20   8477  obj_dbox_table_convert_method
+     9)         20   8336  obj_dbox_table_input_check
+    10)         20   1524  obj_attr_value_tblcell_input_test_2
+    11)         20   1501  obj_value_tblcell_input_test_2
+    12)          4   2841  obj_attr_error
+    ------------------------------------------------------------
+
+
+<<< Unhandled Exception >>>
+The following chain of information is available:
+    error 1: /Arg/Not Open/
+	module: vwindowsys
+	file: windowsys.c
+	line: 14681
+	errno: 11: Resource temporarily unavailable
+
+<<< Program Abort >>>
+  * Time:      20:22:39 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   modeler (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   Vos (Virtual Operating System)
+  * Function:  vmmi_ets_action_notify
+  * Error:     unhandled vex exception
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    153  0x8a115e07 [name not available]
+     1)          1   2211  0x84307c15 [name not available]
+     2)          1   1102  0x2403d402 [name not available]
+     3)          1    146  vos_event_loop
+     4)      18142     77  vos_event_client_vevent_handler
+     5)         31    307  vmmi_ets_action_notify
+    ------------------------------------------------------------
+
+
+<<< Program Fault >>>
+  * Time:      20:22:39 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   modeler (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   Vos (Virtual Operating System) / (UNIX Exception)
+  * Function:  vmmi_ets_action_notify
+  * Error:     program abort -- segmentation violation
+               
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    153  0x8a115e07 [name not available]
+     1)          1   2211  0x84307c15 [name not available]
+     2)          1   1102  0x2403d402 [name not available]
+     3)          1    146  vos_event_loop
+     4)      18142     77  vos_event_client_vevent_handler
+     5)         31    307  vmmi_ets_action_notify
+    ------------------------------------------------------------
+
+
+<<< Warning >>>
+  * Time:      20:38:43 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   modeler (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   TMM
+  * Function:  TmmT_Elev_Catalog::get_current
+  * Error:     No default terrain specified; no elevations available until one is set.
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    153  0x8a115e07 [name not available]
+     1)          1   2211  0x84307c15 [name not available]
+     2)          1   1102  0x2003d701 [name not available]
+     3)          1    146  vos_event_loop
+     4)        592   2520  vmmi_dbox_handle_motion
+     5)        522   3538  vmmi_dbox_lining_handle_motion
+     6)        164   4248  dom_ctl_motion_handler
+     7)        164   8988  nt_domain_mouse_motion_handler
+     8)          1   8747  nt_domain_traj_mode_mouse_motion_handler
+     9)          1   3896  nt_traj_edit_info_update
+    10)          1   1095  TmmT_Elev_Catalog::get_current
+    ------------------------------------------------------------
+
+
+<<< Warning >>>
+  * Time:      20:53:30 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   modeler (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   Network Statistic Browser
+  * Function:  nt_global_collect_node_create_with_handlers
+  * Error:     Some of the statistics marked for collection in the selected report may not
+               be collectable in this scenario.  Only collectable statistics are displayed.
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    153  0x8a115e07 [name not available]
+     1)          1   2211  0x84307c15 [name not available]
+     2)          1   1102  0x2003d701 [name not available]
+     3)          1    146  vos_event_loop
+     4)       2987     77  vos_event_client_vevent_handler
+     5)          3    307  vmmi_ets_action_notify
+     6)          1   6255  pj_command_choose_results
+     7)          1   9562  pj_tool_results_choose
+     8)          1   4482  nt_global_collect_browser_create
+     9)          1   4463  nt_global_collect_node_create
+    10)          1   4440  nt_global_collect_node_create_with_handlers
+    ------------------------------------------------------------
+
+
+<<< Recoverable Error >>>
+  * Time:      21:05:09 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   op_runsim_dev (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   sim_load
+  * Function:  sim_load_dup_link_check
+  * Error:     Unable to load link object (ManetGateway(2,1) <-> mobile_node_0).
+               Link objects must connect to fixed nodes only.
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    152  0x8a115e07 [name not available]
+     1)          1   2211  0x00004c00 [name not available]
+     2)          1   1358  0x0000c400 [name not available]
+     3)          1    451  m3_main
+     4)          1   1149  sim_main
+     5)          1   1408  sim_init_phase2
+     6)          1    264  sim_load_models
+     7)          1   1041  sim_load_net_objects_count
+     8)          5    792  sim_load_dup_link_check
+    ------------------------------------------------------------
+
+
+<<< Recoverable Error >>>
+  * Time:      21:08:14 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   op_runsim_dev (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   Simulation Kernel
+  * Function:  sim_objdesc_link_trx_error
+  * Error:     Link (ManetGateway(2,1) <-> node_0) specifies non-existent transceiver (ManetGateway(2,1).NONE).
+               T (0), EV (-), MOD (NONE), PROC (sim_objdesc_link_trx_error)
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    152  0x8a115e07 [name not available]
+     1)          1   2211  0x00004c00 [name not available]
+     2)          1   1358  0x0000c400 [name not available]
+     3)          1    451  m3_main
+     4)          1   1149  sim_main
+     5)          1   1408  sim_init_phase2
+     6)          1    264  sim_load_models
+     7)          1    363  sim_objdesc_assign
+     8)          1   4821  sim_objdesc_transceivers_attach
+     9)          1   5100  sim_objdesc_link_trx_error
+    ------------------------------------------------------------
+
+
+<<< Recoverable Error >>>
+  * Time:      21:08:14 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   op_runsim_dev (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   Simulation Kernel
+  * Function:  sim_objdesc_link_trx_error
+  * Error:     Link (ManetGateway(2,1) <-> node_0) specifies non-existent transceiver (node_0.NONE).
+               T (0), EV (-), MOD (NONE), PROC (sim_objdesc_link_trx_error)
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    152  0x8a115e07 [name not available]
+     1)          1   2211  0x00004c00 [name not available]
+     2)          1   1358  0x0000c400 [name not available]
+     3)          1    451  m3_main
+     4)          1   1149  sim_main
+     5)          1   1408  sim_init_phase2
+     6)          1    264  sim_load_models
+     7)          1    363  sim_objdesc_assign
+     8)          1   4821  sim_objdesc_transceivers_attach
+     9)          2   5100  sim_objdesc_link_trx_error
+    ------------------------------------------------------------
+
+
+<<< Recoverable Error >>>
+  * Time:      21:08:14 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   op_runsim_dev (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   Simulation Kernel
+  * Function:  sim_objdesc_link_trx_error
+  * Error:     Link (ManetGateway(2,1) <-> node_0) specifies non-existent transceiver (ManetGateway(2,1).NONE).
+               T (0), EV (-), MOD (NONE), PROC (sim_objdesc_link_trx_error)
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    152  0x8a115e07 [name not available]
+     1)          1   2211  0x00004c00 [name not available]
+     2)          1   1358  0x0000c400 [name not available]
+     3)          1    451  m3_main
+     4)          1   1149  sim_main
+     5)          1   1408  sim_init_phase2
+     6)          1    264  sim_load_models
+     7)          1    363  sim_objdesc_assign
+     8)          1   4821  sim_objdesc_transceivers_attach
+     9)          3   5100  sim_objdesc_link_trx_error
+    ------------------------------------------------------------
+
+
+<<< Recoverable Error >>>
+  * Time:      21:08:14 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   op_runsim_dev (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   Simulation Kernel
+  * Function:  sim_objdesc_link_trx_error
+  * Error:     Link (ManetGateway(2,1) <-> node_0) specifies non-existent transceiver (node_0.NONE).
+               T (0), EV (-), MOD (NONE), PROC (sim_objdesc_link_trx_error)
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    152  0x8a115e07 [name not available]
+     1)          1   2211  0x00004c00 [name not available]
+     2)          1   1358  0x0000c400 [name not available]
+     3)          1    451  m3_main
+     4)          1   1149  sim_main
+     5)          1   1408  sim_init_phase2
+     6)          1    264  sim_load_models
+     7)          1    363  sim_objdesc_assign
+     8)          1   4821  sim_objdesc_transceivers_attach
+     9)          4   5100  sim_objdesc_link_trx_error
+    ------------------------------------------------------------
+
+
+<<< Program Abort >>>
+  * Time:      21:08:14 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   op_runsim_dev (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   sim_load
+  * Function:  sim_objdesc_transceivers_attach
+  * Error:     Simulation encountered incorrectly configured links.
+               Check link configuration, including transceiver names,
+               matching channel characteristics, and supported packets.
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    152  0x8a115e07 [name not available]
+     1)          1   2211  0x00004c00 [name not available]
+     2)          1   1358  0x0000c400 [name not available]
+     3)          1    451  m3_main
+     4)          1   1149  sim_main
+     5)          1   1408  sim_init_phase2
+     6)          1    264  sim_load_models
+     7)          1    363  sim_objdesc_assign
+     8)          1   4821  sim_objdesc_transceivers_attach
+    ------------------------------------------------------------
+
+
+<<< Recoverable Error >>>
+  * Time:      21:11:36 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   op_runsim_dev (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   Simulation Kernel
+  * Function:  sim_objdesc_link_trx_error
+  * Error:     Link (ManetGateway(2,1) <-> node_0) specifies non-existent transceiver (ManetGateway(2,1).NONE).
+               T (0), EV (-), MOD (NONE), PROC (sim_objdesc_link_trx_error)
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    152  0x8a115e07 [name not available]
+     1)          1   2211  0x00004c00 [name not available]
+     2)          1   1358  0x0000c400 [name not available]
+     3)          1    451  m3_main
+     4)          1   1149  sim_main
+     5)          1   1408  sim_init_phase2
+     6)          1    264  sim_load_models
+     7)          1    363  sim_objdesc_assign
+     8)          1   4821  sim_objdesc_transceivers_attach
+     9)          1   5100  sim_objdesc_link_trx_error
+    ------------------------------------------------------------
+
+
+<<< Recoverable Error >>>
+  * Time:      21:11:36 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   op_runsim_dev (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   Simulation Kernel
+  * Function:  sim_objdesc_link_trx_error
+  * Error:     Link (ManetGateway(2,1) <-> node_0) specifies non-existent transceiver (node_0.NONE).
+               T (0), EV (-), MOD (NONE), PROC (sim_objdesc_link_trx_error)
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    152  0x8a115e07 [name not available]
+     1)          1   2211  0x00004c00 [name not available]
+     2)          1   1358  0x0000c400 [name not available]
+     3)          1    451  m3_main
+     4)          1   1149  sim_main
+     5)          1   1408  sim_init_phase2
+     6)          1    264  sim_load_models
+     7)          1    363  sim_objdesc_assign
+     8)          1   4821  sim_objdesc_transceivers_attach
+     9)          2   5100  sim_objdesc_link_trx_error
+    ------------------------------------------------------------
+
+
+<<< Recoverable Error >>>
+  * Time:      21:11:36 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   op_runsim_dev (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   Simulation Kernel
+  * Function:  sim_objdesc_link_trx_error
+  * Error:     Link (ManetGateway(2,1) <-> node_0) specifies non-existent transceiver (ManetGateway(2,1).NONE).
+               T (0), EV (-), MOD (NONE), PROC (sim_objdesc_link_trx_error)
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    152  0x8a115e07 [name not available]
+     1)          1   2211  0x00004c00 [name not available]
+     2)          1   1358  0x0000c400 [name not available]
+     3)          1    451  m3_main
+     4)          1   1149  sim_main
+     5)          1   1408  sim_init_phase2
+     6)          1    264  sim_load_models
+     7)          1    363  sim_objdesc_assign
+     8)          1   4821  sim_objdesc_transceivers_attach
+     9)          3   5100  sim_objdesc_link_trx_error
+    ------------------------------------------------------------
+
+
+<<< Recoverable Error >>>
+  * Time:      21:11:36 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   op_runsim_dev (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   Simulation Kernel
+  * Function:  sim_objdesc_link_trx_error
+  * Error:     Link (ManetGateway(2,1) <-> node_0) specifies non-existent transceiver (node_0.NONE).
+               T (0), EV (-), MOD (NONE), PROC (sim_objdesc_link_trx_error)
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    152  0x8a115e07 [name not available]
+     1)          1   2211  0x00004c00 [name not available]
+     2)          1   1358  0x0000c400 [name not available]
+     3)          1    451  m3_main
+     4)          1   1149  sim_main
+     5)          1   1408  sim_init_phase2
+     6)          1    264  sim_load_models
+     7)          1    363  sim_objdesc_assign
+     8)          1   4821  sim_objdesc_transceivers_attach
+     9)          4   5100  sim_objdesc_link_trx_error
+    ------------------------------------------------------------
+
+
+<<< Program Abort >>>
+  * Time:      21:11:36 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   op_runsim_dev (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   sim_load
+  * Function:  sim_objdesc_transceivers_attach
+  * Error:     Simulation encountered incorrectly configured links.
+               Check link configuration, including transceiver names,
+               matching channel characteristics, and supported packets.
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    152  0x8a115e07 [name not available]
+     1)          1   2211  0x00004c00 [name not available]
+     2)          1   1358  0x0000c400 [name not available]
+     3)          1    451  m3_main
+     4)          1   1149  sim_main
+     5)          1   1408  sim_init_phase2
+     6)          1    264  sim_load_models
+     7)          1    363  sim_objdesc_assign
+     8)          1   4821  sim_objdesc_transceivers_attach
+    ------------------------------------------------------------
+
+
+<<< Recoverable Error >>>
+  * Time:      21:12:29 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   op_runsim_dev (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   Simulation Kernel
+  * Function:  sim_objdesc_link_trx_error
+  * Error:     Link (ManetGateway(2,1) <-> node_0) specifies non-existent transceiver (ManetGateway(2,1).NONE).
+               T (0), EV (-), MOD (NONE), PROC (sim_objdesc_link_trx_error)
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    152  0x8a115e07 [name not available]
+     1)          1   2211  0x00004c00 [name not available]
+     2)          1   1358  0x0000c400 [name not available]
+     3)          1    451  m3_main
+     4)          1   1149  sim_main
+     5)          1   1408  sim_init_phase2
+     6)          1    264  sim_load_models
+     7)          1    363  sim_objdesc_assign
+     8)          1   4821  sim_objdesc_transceivers_attach
+     9)          1   5100  sim_objdesc_link_trx_error
+    ------------------------------------------------------------
+
+
+<<< Recoverable Error >>>
+  * Time:      21:12:29 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   op_runsim_dev (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   Simulation Kernel
+  * Function:  sim_objdesc_link_trx_error
+  * Error:     Link (ManetGateway(2,1) <-> node_0) specifies non-existent transceiver (node_0.NONE).
+               T (0), EV (-), MOD (NONE), PROC (sim_objdesc_link_trx_error)
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    152  0x8a115e07 [name not available]
+     1)          1   2211  0x00004c00 [name not available]
+     2)          1   1358  0x0000c400 [name not available]
+     3)          1    451  m3_main
+     4)          1   1149  sim_main
+     5)          1   1408  sim_init_phase2
+     6)          1    264  sim_load_models
+     7)          1    363  sim_objdesc_assign
+     8)          1   4821  sim_objdesc_transceivers_attach
+     9)          2   5100  sim_objdesc_link_trx_error
+    ------------------------------------------------------------
+
+
+<<< Recoverable Error >>>
+  * Time:      21:12:29 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   op_runsim_dev (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   Simulation Kernel
+  * Function:  sim_objdesc_link_trx_error
+  * Error:     Link (ManetGateway(2,1) <-> node_0) specifies non-existent transceiver (ManetGateway(2,1).NONE).
+               T (0), EV (-), MOD (NONE), PROC (sim_objdesc_link_trx_error)
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    152  0x8a115e07 [name not available]
+     1)          1   2211  0x00004c00 [name not available]
+     2)          1   1358  0x0000c400 [name not available]
+     3)          1    451  m3_main
+     4)          1   1149  sim_main
+     5)          1   1408  sim_init_phase2
+     6)          1    264  sim_load_models
+     7)          1    363  sim_objdesc_assign
+     8)          1   4821  sim_objdesc_transceivers_attach
+     9)          3   5100  sim_objdesc_link_trx_error
+    ------------------------------------------------------------
+
+
+<<< Recoverable Error >>>
+  * Time:      21:12:29 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   op_runsim_dev (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   Simulation Kernel
+  * Function:  sim_objdesc_link_trx_error
+  * Error:     Link (ManetGateway(2,1) <-> node_0) specifies non-existent transceiver (node_0.NONE).
+               T (0), EV (-), MOD (NONE), PROC (sim_objdesc_link_trx_error)
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    152  0x8a115e07 [name not available]
+     1)          1   2211  0x00004c00 [name not available]
+     2)          1   1358  0x0000c400 [name not available]
+     3)          1    451  m3_main
+     4)          1   1149  sim_main
+     5)          1   1408  sim_init_phase2
+     6)          1    264  sim_load_models
+     7)          1    363  sim_objdesc_assign
+     8)          1   4821  sim_objdesc_transceivers_attach
+     9)          4   5100  sim_objdesc_link_trx_error
+    ------------------------------------------------------------
+
+
+<<< Program Abort >>>
+  * Time:      21:12:29 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   op_runsim_dev (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   sim_load
+  * Function:  sim_objdesc_transceivers_attach
+  * Error:     Simulation encountered incorrectly configured links.
+               Check link configuration, including transceiver names,
+               matching channel characteristics, and supported packets.
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    152  0x8a115e07 [name not available]
+     1)          1   2211  0x00004c00 [name not available]
+     2)          1   1358  0x0000c400 [name not available]
+     3)          1    451  m3_main
+     4)          1   1149  sim_main
+     5)          1   1408  sim_init_phase2
+     6)          1    264  sim_load_models
+     7)          1    363  sim_objdesc_assign
+     8)          1   4821  sim_objdesc_transceivers_attach
+    ------------------------------------------------------------
+
+
+<<< Recoverable Error >>>
+  * Time:      21:19:53 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   modeler (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   Obj
+  * Function:  obj_attr_error
+  * Error:     Access failed for attribute (Address)
+               Value is not permitted.
+               Text does not represent an integer.
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    153  0x8a115e07 [name not available]
+     1)          1   2211  0x84307c15 [name not available]
+     2)          1   1102  0x2003d701 [name not available]
+     3)          1    146  vos_event_loop
+     4)        395   2833  vmmi_dbox_handle_button_down
+     5)         43   4104  vmmi_dbox_cell_edit_test_unfocus
+     6)        142   8656  Mmi_Ctl_Table_Cell_Edit_Close
+     7)         22   8477  obj_dbox_table_convert_method
+     8)         22   8336  obj_dbox_table_input_check
+     9)         22   1524  obj_attr_value_tblcell_input_test_2
+    10)         22   1480  obj_value_tblcell_input_test_2
+    11)          1   2841  obj_attr_error
+    ------------------------------------------------------------
+
+
+<<< Recoverable Error >>>
+  * Time:      21:19:53 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   modeler (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   Obj
+  * Function:  obj_attr_error
+  * Error:     Access failed for attribute (Address)
+               Value is not permitted.
+               Text does not represent an integer.
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    153  0x8a115e07 [name not available]
+     1)          1   2211  0x84307c15 [name not available]
+     2)          1   1102  0x2003d701 [name not available]
+     3)          1    146  vos_event_loop
+     4)        395   2833  vmmi_dbox_handle_button_down
+     5)        360   3593  vmmi_dbox_lining_handle_button_down
+     6)        117   4863  vmmi_ctl_table_handle_button_down
+     7)        143   8656  Mmi_Ctl_Table_Cell_Edit_Close
+     8)         23   8477  obj_dbox_table_convert_method
+     9)         23   8336  obj_dbox_table_input_check
+    10)         23   1524  obj_attr_value_tblcell_input_test_2
+    11)         23   1480  obj_value_tblcell_input_test_2
+    12)          2   2841  obj_attr_error
+    ------------------------------------------------------------
+
+
+<<< Recoverable Error >>>
+  * Time:      21:19:59 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   modeler (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   Obj
+  * Function:  obj_attr_error
+  * Error:     Access failed for attribute (Address)
+               Value is not permitted.
+               Text does not represent an integer.
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    153  0x8a115e07 [name not available]
+     1)          1   2211  0x84307c15 [name not available]
+     2)          1   1102  0x2003d701 [name not available]
+     3)          1    146  vos_event_loop
+     4)        396   2833  vmmi_dbox_handle_button_down
+     5)         46   4104  vmmi_dbox_cell_edit_test_unfocus
+     6)        144   8656  Mmi_Ctl_Table_Cell_Edit_Close
+     7)         24   8477  obj_dbox_table_convert_method
+     8)         24   8336  obj_dbox_table_input_check
+     9)         24   1524  obj_attr_value_tblcell_input_test_2
+    10)         24   1480  obj_value_tblcell_input_test_2
+    11)          3   2841  obj_attr_error
+    ------------------------------------------------------------
+
+
+<<< Recoverable Error >>>
+  * Time:      21:19:59 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   modeler (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   Obj
+  * Function:  obj_attr_error
+  * Error:     Access failed for attribute (Address)
+               Value is not permitted.
+               Text does not represent an integer.
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    153  0x8a115e07 [name not available]
+     1)          1   2211  0x84307c15 [name not available]
+     2)          1   1102  0x2003d701 [name not available]
+     3)          1    146  vos_event_loop
+     4)        396   2833  vmmi_dbox_handle_button_down
+     5)        361   3593  vmmi_dbox_lining_handle_button_down
+     6)        118   4863  vmmi_ctl_table_handle_button_down
+     7)        145   8656  Mmi_Ctl_Table_Cell_Edit_Close
+     8)         25   8477  obj_dbox_table_convert_method
+     9)         25   8336  obj_dbox_table_input_check
+    10)         25   1524  obj_attr_value_tblcell_input_test_2
+    11)         25   1480  obj_value_tblcell_input_test_2
+    12)          4   2841  obj_attr_error
+    ------------------------------------------------------------
+
+
+<<< Recoverable Error >>>
+  * Time:      21:20:08 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   modeler (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   Obj
+  * Function:  obj_attr_error
+  * Error:     Access failed for attribute (Address)
+               Value is not permitted.
+               Text does not represent an integer.
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    153  0x8a115e07 [name not available]
+     1)          1   2211  0x84307c15 [name not available]
+     2)          1   1102  0x2003d701 [name not available]
+     3)          1    146  vos_event_loop
+     4)        397   2833  vmmi_dbox_handle_button_down
+     5)         49   4104  vmmi_dbox_cell_edit_test_unfocus
+     6)        146   8656  Mmi_Ctl_Table_Cell_Edit_Close
+     7)         26   8477  obj_dbox_table_convert_method
+     8)         26   8336  obj_dbox_table_input_check
+     9)         26   1524  obj_attr_value_tblcell_input_test_2
+    10)         26   1480  obj_value_tblcell_input_test_2
+    11)          5   2841  obj_attr_error
+    ------------------------------------------------------------
+
+
+<<< Recoverable Error >>>
+  * Time:      21:20:08 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   modeler (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   Obj
+  * Function:  obj_attr_error
+  * Error:     Access failed for attribute (Address)
+               Value is not permitted.
+               Text does not represent an integer.
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    153  0x8a115e07 [name not available]
+     1)          1   2211  0x84307c15 [name not available]
+     2)          1   1102  0x2003d701 [name not available]
+     3)          1    146  vos_event_loop
+     4)        397   2833  vmmi_dbox_handle_button_down
+     5)        362   3593  vmmi_dbox_lining_handle_button_down
+     6)        119   4863  vmmi_ctl_table_handle_button_down
+     7)        147   8656  Mmi_Ctl_Table_Cell_Edit_Close
+     8)         27   8477  obj_dbox_table_convert_method
+     9)         27   8336  obj_dbox_table_input_check
+    10)         27   1524  obj_attr_value_tblcell_input_test_2
+    11)         27   1480  obj_value_tblcell_input_test_2
+    12)          6   2841  obj_attr_error
+    ------------------------------------------------------------
+
+
+<<< Recoverable Error >>>
+  * Time:      21:20:13 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   modeler (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   Obj
+  * Function:  obj_attr_error
+  * Error:     Access failed for attribute (Address)
+               Value is not permitted.
+               Text does not represent an integer.
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    153  0x8a115e07 [name not available]
+     1)          1   2211  0x84307c15 [name not available]
+     2)          1   1102  0x2003d701 [name not available]
+     3)          1    146  vos_event_loop
+     4)        399   2833  vmmi_dbox_handle_button_down
+     5)         52   4104  vmmi_dbox_cell_edit_test_unfocus
+     6)        148   8656  Mmi_Ctl_Table_Cell_Edit_Close
+     7)         28   8477  obj_dbox_table_convert_method
+     8)         28   8336  obj_dbox_table_input_check
+     9)         28   1524  obj_attr_value_tblcell_input_test_2
+    10)         28   1480  obj_value_tblcell_input_test_2
+    11)          7   2841  obj_attr_error
+    ------------------------------------------------------------
+
+
+<<< Recoverable Error >>>
+  * Time:      21:20:14 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   modeler (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   Obj
+  * Function:  obj_attr_error
+  * Error:     Access failed for attribute (Address)
+               Value is not permitted.
+               Text does not represent an integer.
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    153  0x8a115e07 [name not available]
+     1)          1   2211  0x84307c15 [name not available]
+     2)          1   1102  0x2003d701 [name not available]
+     3)          1    146  vos_event_loop
+     4)        399   2833  vmmi_dbox_handle_button_down
+     5)        363   3593  vmmi_dbox_lining_handle_button_down
+     6)        120   4863  vmmi_ctl_table_handle_button_down
+     7)        149   8656  Mmi_Ctl_Table_Cell_Edit_Close
+     8)         29   8477  obj_dbox_table_convert_method
+     9)         29   8336  obj_dbox_table_input_check
+    10)         29   1524  obj_attr_value_tblcell_input_test_2
+    11)         29   1480  obj_value_tblcell_input_test_2
+    12)          8   2841  obj_attr_error
+    ------------------------------------------------------------
+
+
+<<< Recoverable Error >>>
+  * Time:      21:20:18 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   modeler (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   Obj
+  * Function:  obj_attr_error
+  * Error:     Access failed for attribute (Address)
+               Value is not permitted.
+               Text does not represent an integer.
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    153  0x8a115e07 [name not available]
+     1)          1   2211  0x84307c15 [name not available]
+     2)          1   1102  0x2003d701 [name not available]
+     3)          1    146  vos_event_loop
+     4)        401   2833  vmmi_dbox_handle_button_down
+     5)         55   4104  vmmi_dbox_cell_edit_test_unfocus
+     6)        150   8656  Mmi_Ctl_Table_Cell_Edit_Close
+     7)         30   8477  obj_dbox_table_convert_method
+     8)         30   8336  obj_dbox_table_input_check
+     9)         30   1524  obj_attr_value_tblcell_input_test_2
+    10)         30   1480  obj_value_tblcell_input_test_2
+    11)          9   2841  obj_attr_error
+    ------------------------------------------------------------
+
+
+<<< Recoverable Error >>>
+  * Time:      21:20:18 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   modeler (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   Obj
+  * Function:  obj_attr_error
+  * Error:     Access failed for attribute (Address)
+               Value is not permitted.
+               Text does not represent an integer.
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    153  0x8a115e07 [name not available]
+     1)          1   2211  0x84307c15 [name not available]
+     2)          1   1102  0x2003d701 [name not available]
+     3)          1    146  vos_event_loop
+     4)        401   2833  vmmi_dbox_handle_button_down
+     5)        364   3593  vmmi_dbox_lining_handle_button_down
+     6)        121   4863  vmmi_ctl_table_handle_button_down
+     7)        151   8656  Mmi_Ctl_Table_Cell_Edit_Close
+     8)         31   8477  obj_dbox_table_convert_method
+     9)         31   8336  obj_dbox_table_input_check
+    10)         31   1524  obj_attr_value_tblcell_input_test_2
+    11)         31   1480  obj_value_tblcell_input_test_2
+    12)         10   2841  obj_attr_error
+    ------------------------------------------------------------
+
+
+<<< Recoverable Error >>>
+  * Time:      21:21:04 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   modeler (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   Obj
+  * Function:  obj_attr_error
+  * Error:     Access failed for attribute (Address)
+               Value is not permitted.
+               Text does not represent an integer.
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    153  0x8a115e07 [name not available]
+     1)          1   2211  0x84307c15 [name not available]
+     2)          1   1102  0x2003d701 [name not available]
+     3)          1    146  vos_event_loop
+     4)        405   2833  vmmi_dbox_handle_button_down
+     5)         58   4104  vmmi_dbox_cell_edit_test_unfocus
+     6)        152   8656  Mmi_Ctl_Table_Cell_Edit_Close
+     7)         32   8477  obj_dbox_table_convert_method
+     8)         32   8336  obj_dbox_table_input_check
+     9)         32   1524  obj_attr_value_tblcell_input_test_2
+    10)         32   1480  obj_value_tblcell_input_test_2
+    11)         11   2841  obj_attr_error
+    ------------------------------------------------------------
+
+
+<<< Recoverable Error >>>
+  * Time:      21:21:04 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   modeler (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   Obj
+  * Function:  obj_attr_error
+  * Error:     Access failed for attribute (Address)
+               Value is not permitted.
+               Text does not represent an integer.
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    153  0x8a115e07 [name not available]
+     1)          1   2211  0x84307c15 [name not available]
+     2)          1   1102  0x2003d701 [name not available]
+     3)          1    146  vos_event_loop
+     4)        405   2833  vmmi_dbox_handle_button_down
+     5)        365   3593  vmmi_dbox_lining_handle_button_down
+     6)        122   4863  vmmi_ctl_table_handle_button_down
+     7)        153   8656  Mmi_Ctl_Table_Cell_Edit_Close
+     8)         33   8477  obj_dbox_table_convert_method
+     9)         33   8336  obj_dbox_table_input_check
+    10)         33   1524  obj_attr_value_tblcell_input_test_2
+    11)         33   1480  obj_value_tblcell_input_test_2
+    12)         12   2841  obj_attr_error
+    ------------------------------------------------------------
+
+
+<<< Recoverable Error >>>
+  * Time:      21:21:10 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   modeler (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   Obj
+  * Function:  obj_attr_error
+  * Error:     Access failed for attribute (Address)
+               Value is not permitted.
+               Text does not represent an integer.
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    153  0x8a115e07 [name not available]
+     1)          1   2211  0x84307c15 [name not available]
+     2)          1   1102  0x2003d701 [name not available]
+     3)          1    146  vos_event_loop
+     4)        406   2833  vmmi_dbox_handle_button_down
+     5)         61   4104  vmmi_dbox_cell_edit_test_unfocus
+     6)        154   8656  Mmi_Ctl_Table_Cell_Edit_Close
+     7)         34   8477  obj_dbox_table_convert_method
+     8)         34   8336  obj_dbox_table_input_check
+     9)         34   1524  obj_attr_value_tblcell_input_test_2
+    10)         34   1480  obj_value_tblcell_input_test_2
+    11)         13   2841  obj_attr_error
+    ------------------------------------------------------------
+
+
+<<< Recoverable Error >>>
+  * Time:      21:21:10 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   modeler (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   Obj
+  * Function:  obj_attr_error
+  * Error:     Access failed for attribute (Address)
+               Value is not permitted.
+               Text does not represent an integer.
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    153  0x8a115e07 [name not available]
+     1)          1   2211  0x84307c15 [name not available]
+     2)          1   1102  0x2003d701 [name not available]
+     3)          1    146  vos_event_loop
+     4)        406   2833  vmmi_dbox_handle_button_down
+     5)        366   3593  vmmi_dbox_lining_handle_button_down
+     6)        123   4863  vmmi_ctl_table_handle_button_down
+     7)        155   8656  Mmi_Ctl_Table_Cell_Edit_Close
+     8)         35   8477  obj_dbox_table_convert_method
+     9)         35   8336  obj_dbox_table_input_check
+    10)         35   1524  obj_attr_value_tblcell_input_test_2
+    11)         35   1480  obj_value_tblcell_input_test_2
+    12)         14   2841  obj_attr_error
+    ------------------------------------------------------------
+
+
+<<< Recoverable Error >>>
+  * Time:      21:21:16 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   modeler (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   Obj
+  * Function:  obj_attr_error
+  * Error:     Access failed for attribute (Address)
+               Value is not permitted.
+               Text does not represent an integer.
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    153  0x8a115e07 [name not available]
+     1)          1   2211  0x84307c15 [name not available]
+     2)          1   1102  0x2003d701 [name not available]
+     3)          1    146  vos_event_loop
+     4)        407   2833  vmmi_dbox_handle_button_down
+     5)         64   4104  vmmi_dbox_cell_edit_test_unfocus
+     6)        156   8656  Mmi_Ctl_Table_Cell_Edit_Close
+     7)         36   8477  obj_dbox_table_convert_method
+     8)         36   8336  obj_dbox_table_input_check
+     9)         36   1524  obj_attr_value_tblcell_input_test_2
+    10)         36   1480  obj_value_tblcell_input_test_2
+    11)         15   2841  obj_attr_error
+    ------------------------------------------------------------
+
+
+<<< Recoverable Error >>>
+  * Time:      21:41:50 Fri Dec 4 2020
+  * Product:   modeler (64-bit)
+  * Program:   op_runsim_dev (Version 18.6.1 Build 20050 64-bit)
+  * System:    Linux eesfc67.engr.ccny.cuny.edu 3.10.0-957.12.2.el7.x86_64 #1 SMP Tue May 14 21:24:32 UTC 2019 x86_64
+  * Package:   sim_load
+  * Function:  sim_load_dup_link_check
+  * Error:     Unable to load link object (SalesMobile <-> SalesUser).
+               Link objects must connect to fixed nodes only.
+
+  * Function call stack: (builds down)
+    ------------------------------------------------------------
+             Call   Block
+             Count  Line#  Function
+    ------------------------------------------------------------
+     0)          1    152  0x8a115e07 [name not available]
+     1)          1   2211  0x00004c00 [name not available]
+     2)          1   1358  0x0000c400 [name not available]
+     3)          1    451  m3_main
+     4)          1   1149  sim_main
+     5)          1   1408  sim_init_phase2
+     6)          1    264  sim_load_models
+     7)          1   1041  sim_load_net_objects_count
+     8)          6    792  sim_load_dup_link_check
+    ------------------------------------------------------------
+

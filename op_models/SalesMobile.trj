@@ -1,0 +1,18 @@
+Version: 5
+Position_Unit: Kilometers
+Altitude_Unit: Meters
+Coordinate_Method: fixed
+Altitude_Method: absolute
+locale: C
+Calendar_Start: unused
+Execute_Count: 1
+Reverse_Trajectory: no
+Reverse_Wait_Time: 0.000000
+Coordinate_Count: 6
+# X Position        ,Y Position          ,Altitude            ,Traverse Time       ,Wait Time           ,Pitch               ,Yaw                 ,Roll                
+-1.03075569188088   ,-0.984443883618973  ,0                   ,0h0m0.0s            ,0h0m0.0s            ,Autocomputed        ,Autocomputed        ,Autocomputed        
+1.9862844257445     ,-1.03515044021772   ,0                   ,0h22m37.86s         ,0h0m0.0s            ,Autocomputed        ,Autocomputed        ,Autocomputed        
+2.01163770404387    ,0.9762096381992     ,0                   ,0h15m5.18s          ,0h0m0.0s            ,Autocomputed        ,Autocomputed        ,Autocomputed        
+0.0171798111598669  ,1.00156291649857    ,0                   ,0h14m57.58s         ,0h0m0.0s            ,Autocomputed        ,Autocomputed        ,Autocomputed        
+-0.0166245599059636 ,-1.00134606915189   ,0                   ,0h15m1.44s          ,0h0m0.0s            ,Autocomputed        ,Autocomputed        ,Autocomputed        
+0.000277625626951661,-3.28314111609545   ,0                   ,0h17m6.84s          ,0h0m0.0s            ,Autocomputed        ,Autocomputed        ,Autocomputed        
